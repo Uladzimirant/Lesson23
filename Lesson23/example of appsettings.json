@@ -1,0 +1,14 @@
+//This is copy of my appsettings.json without sencetive info
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "CodeFirst": "secret",
+    "DatabaseFirst": "secret"
+  }
+}
